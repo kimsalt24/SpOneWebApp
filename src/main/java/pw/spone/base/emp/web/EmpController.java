@@ -39,7 +39,7 @@ import pw.spone.base.emp.vo.EmpVo;
  * @description	: 데모용 사원 정보 관련 처리를 하는 컨트롤러
  * @author		: 개발팀
  * @since 		: 2023/05/31
- * @modification
+ * @modification  
  * ===========================================================
  * DATE				AUTHOR				NOTE
  * ===========================================================
@@ -47,7 +47,7 @@ import pw.spone.base.emp.vo.EmpVo;
  * 
  */ 
 @Controller
-public class EmpController {
+public class EmpController { 
 	
     @Resource(name = "empServiceImpl")
     private EmpService empService;
