@@ -47,7 +47,7 @@ import pw.spone.base.emp.vo.EmpVo;
  * 
  */ 
 @Controller
-public class EmpController { 
+public class EmpController { ////
 	
     @Resource(name = "empServiceImpl")
     private EmpService empService;
